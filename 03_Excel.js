@@ -23,10 +23,10 @@ function pegarValor() {
 
     let total = 0
 
-    if (valor1 === "b") {
+    if (valor1 === "d") {
         total = total + 1
-    } else { valor1 === "Escolha apenas uma alternativa" } {
-        total = total + 0
+    } else { valor1 === "e" } {
+        total = total + 0.5
     }
 
     if (valor2 === "b") {
