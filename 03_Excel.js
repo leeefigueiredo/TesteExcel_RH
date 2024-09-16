@@ -27,7 +27,7 @@ function pegarValor() {
         total = total + 1
     } 
 
-    if (valor2 === "b") {
+    if (valor2 === "a") {
         total = total + 1
     } else { valor1 === "Escolha apenas uma alternativa" } {
         total = total + 0
