@@ -24,10 +24,8 @@ function pegarValor() {
     let total = 0
 
     if (valor1 === "d") {
-        total +=
-    } else { valor1 === "e" } {
-        total = total + 0.0
-    }
+        total = total + 1
+    } 
 
     if (valor2 === "b") {
         total = total + 1
