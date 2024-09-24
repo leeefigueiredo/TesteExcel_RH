@@ -26,6 +26,13 @@ function pegarValor() {
     console.log(valor2);
     console.log(valor3);
     console.log(valor4);
+    console.log(valor5);
+    console.log(valor6);
+    console.log(valor7);
+    console.log(valor8);
+    console.log(valor9);
+    console.log(valor10);
+    
 
     let total = 0
 
@@ -33,58 +40,61 @@ function pegarValor() {
         total = total + 1
     } 
 
+    console.log(total)
+
     if (valor2 === "a") {
         total = total + 1
-    } else { valor2 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor3 === "b") {
         total = total + 1
-    } else { valor1 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor4 === "b") {
         total = total + 1
-    } else { valor5 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor5 === "a") {
         total = total + 1
-    } else { valor5 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor6 === "c") {
         total = total + 1
-    } else { valor6 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor7 === "a") {
         total = total + 1
-    } else { valor7 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+    } 
+
+    console.log(total)
 
     if (valor8 === "b") {
         total = total + 1
-    } else { valor8 === "Escolha apenas uma alternativa" } {
-        total = total + 0    }
+    } 
+
+    console.log(total)
 
     if (valor9 === "a") {
-     total = total + 1
-    } else { valor9 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+        total = total + 1
+    } 
+
+    console.log(total)
 
     if (valor10 === "c") {
-     total = total + 1
-    } else { valor10 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
+        total = total + 1
+    } 
+
+    console.log(total)
 
     
     console.log(total)
@@ -99,8 +109,10 @@ function mostrarPopup() {
     document.getElementById('popup').style.display = 'block';
 }
 
-// function fecharPopup() {
-//     document.getElementById('popup').style.display = 'none';
-// }
+function mostrarVerifque(){
+    document.getElementById('verifique').innerHTML = "<b>Acesse esse conteúdo por R$4,99</b>"
+}
+
+
 
 

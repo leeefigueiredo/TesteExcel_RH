@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -7,28 +7,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
+
+h2 {
+    color: #4CAF50;
+
+}
 
 main {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1500px;
-    width: 100%;
+
 }
 
 .questao {
     padding: 3%;
-    /* border: 2px solid black;
-    border-radius: 20px;
-    background-color:  #e2e2e2; */
 }
 
+.questao:first-child {
+    margin-top: 75px;
 
+}
 
 
 
@@ -37,7 +41,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 img {
@@ -46,7 +50,7 @@ img {
     width: 45%;
     height: 80%;
     margin: 10px;
-   
+
 }
 
 select {
@@ -57,26 +61,55 @@ select {
     background-color: #f4f9f4;
     margin-top: 10px;
     text-align: center;
-   
+
 }
 
-select:hover{
+select:hover {
     box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 0.5);
 }
 
 
-.Final{
+.Final {
     display: flex;
     justify-content: end;
     align-items: end;
 }
 
+button {
+    background-color: #4CAF50;
+    /* Verde */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: black;
+}
 
 @media (max-width: 1800px) {
-    
-    
-    
+
+
+
     .qimg {
         display: flex;
         flex-direction: column;
@@ -85,8 +118,8 @@ select:hover{
 
     img {
         margin-top: 10px;
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
     }
 }
 
@@ -94,10 +127,10 @@ select:hover{
 
 
 /* pop.css */
- 
 
-.popup-content p{
- font-size: x-large;
+
+.popup-content p {
+    font-size: x-large;
 }
 
 .popup {
@@ -110,6 +143,8 @@ select:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
 .popup-content {
     position: absolute;
     left: 50%;
@@ -118,17 +153,29 @@ select:hover{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    width: 400px;
-    height: 400px;
-    
+    width: auto;
+    height: auto;
 
 
 }
 
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-} 
+.top-nav p {
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 8px;
+}
 
+.top-nav {
+    position: fixed;
+    top: 0px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00BAF0;
+    background: linear-gradient(to left, #347436, #4CAF50);
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+}
