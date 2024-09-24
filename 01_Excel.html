@@ -172,8 +172,8 @@
 
          <p></p>
          <ol type="a">
-            <li>=SOMASE($A$2:$A$11;F2;$B$2:$B$11)</li><br>
             <li>=SOMASE(A1:A11;F2;B3:B15)</li><br>
+            <li>=SOMASE($A$2:$A$11;F2;$B$2:$B$11)</li><br>
             <li>=SOMASE($A$4:$A$11;F3;$B$2:$B$11)</li><br>
             <li>=SOMASE(A6:A11;F4;B2:B12)</li><br>
          
@@ -195,9 +195,7 @@
       <div class="questao">
          <h2>Questão 5</h2>
 
-         <p>Nesse exercício, a comissão obedece a seguinte lógica: se o valor total da venda for mairo que 150, o
-            vendedor receberá uma comissão de 10% em cima do valor total da venda. Qual a sentença correta que
-            corresponde a essa lógica? </p>
+         <p>Nesse exercício, a comissão obedece a seguinte lógica: se o valor total da venda for maior que 150, o vendedor receberá uma comissão de 10% em cima do valor total da venda. <br><br> Qual a sentença correta que corresponde a essa lógica na célula G2? </p>
 
          <div class="qimg">
             <img src="img/se.jpg" alt="tabela questão 4">
@@ -209,7 +207,7 @@
          <ol type="a">
 
             <li>=SE(E2>=150;(E2*0,1);0)</li><br>
-            <li>=SE(E3=150;(E2*0,1);0)</li><br>
+            <li>=SE(E2=150;(E2*100);0)</li><br>
             <li>=SE(E2>=150;(E2/0,1);0)</li><br>
             <li>=SE(E2>=150;(E2*0,2);0)</li><br>
 
@@ -273,7 +271,7 @@
       <div class="questao">
          <h2>Questão 7</h2>
 
-         <p>Na célula F7 está a soma total do CUSTO FINAL de todos os produtos, qual a melhor sintaxe que representa?
+         <p>Na célula F7 está a soma total do CUSTO FINAL de todos os produtos, qual a melhor sintaxe para obter o mesmo resultado da célula apresentado?
          </p>
 
          <div class="qimg">
@@ -288,8 +286,7 @@
             <li>=SOMA(F2:F4)</li><br>
             <li>=SOMAR(F2:F4)</li><br>
             <li>=SOMA(F2:F6)</li><br>
-            <li>=SOMAR(F2:F4)</li><br>
-
+            <li>=SOMA(F2+F4)</li><br>
 
          </ol>
 
@@ -385,11 +382,50 @@
 
       <br><br>
 
+      <div class="questao">
+         <h2>Questão 10</h2>
+
+         <p> Qual recurso foi utilizado para alcançar o resultado apresentado? 
+
+
+         </p>
+
+         <div class="qimg">
+            <img src="img/texto para colunas.jpg" alt="tabela questão 4">
+         </div>
+
+
+
+         <p></p>
+         <ol type="a">
+
+            <li>Formatação condicional</li><br>
+            <li>Validação de Dados</li><br>
+            <li>Texto para Colunas</li><br>
+            <li>Remover duplicadas</li><br>
+
+         </ol>
+
+
+         <lab><b>Qual a alternativa correta?</b></a><br>
+            <select name="option" id="meuInput10">
+               <option value="a">Escolha apenas uma alternativa</option>
+               <option value="a">A</option>
+               <option value="b">B</option>
+               <option value="c">C</option>
+               <option value="d">D</option>
+            </select>
+
+      </div>
+
+
+      <br><br>
+
 
       <button onclick="mostrarPopup();pegarValor();mostrarNome()">Finalizar Teste</button>
       <div id="popup" class="popup">
          <div class="popup-content">
-            <span class="close" onclick="fecharPopup()">×</span>
+            <!-- <span class="close" onclick="fecharPopup()">×</span> -->
             <p>Parabéns!!!</p>
             <p> Prezado(a) <output id="outputAluno"></output>, <br> Sua nota é <output id="meuOutput"></output></p>
 
