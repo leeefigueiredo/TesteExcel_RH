@@ -51,25 +51,19 @@ function pegarValor() {
         total = total + 0
     }
 
-    if (valor5 === "b") {
+    if (valor5 === "a") {
         total = total + 1
     } else { valor5 === "Escolha apenas uma alternativa" } {
         total = total + 0
     }
 
-    if (valor6 === "b") {
+    if (valor6 === "c") {
         total = total + 1
     } else { valor6 === "Escolha apenas uma alternativa" } {
         total = total + 0
     }
 
-    if (valor7 === "b") {
-        total = total + 1
-    } else { valor7 === "Escolha apenas uma alternativa" } {
-        total = total + 0
-    }
-
-    if (valor7 === "b") {
+    if (valor7 === "a") {
         total = total + 1
     } else { valor7 === "Escolha apenas uma alternativa" } {
         total = total + 0
@@ -80,13 +74,13 @@ function pegarValor() {
     } else { valor8 === "Escolha apenas uma alternativa" } {
         total = total + 0    }
 
-    if (valor9 === "b") {
+    if (valor9 === "a") {
      total = total + 1
     } else { valor9 === "Escolha apenas uma alternativa" } {
         total = total + 0
     }
 
-    if (valor10 === "b") {
+    if (valor10 === "c") {
      total = total + 1
     } else { valor10 === "Escolha apenas uma alternativa" } {
         total = total + 0
