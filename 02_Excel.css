@@ -11,6 +11,7 @@ body{
 }
 
 
+
 main {
     background: #fff;
     padding: 20px;
@@ -25,6 +26,12 @@ main {
     /* border: 2px solid black;
     border-radius: 20px;
     background-color:  #e2e2e2; */
+}
+
+.Final{
+    justify-content: end;
+    align-items: end;
+
 }
 
 .qimg {
@@ -44,6 +51,22 @@ img {
    
 }
 
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f4f9f4;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+select:hover{
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 0.5);
+}
+
+
 @media (max-width: 1800px) {
     .qimg {
         display: flex;
@@ -57,6 +80,7 @@ img {
         height: 100%;
     }
 }
+
 
 
 /* pop.css */
@@ -92,6 +116,8 @@ img {
  /* 02_Excel.css */
 
 /* 
+
+CSS - COPILOT
 
 body {
     font-family: 'Arial', sans-serif;
