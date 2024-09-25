@@ -110,7 +110,7 @@ function mostrarPopup() {
 }
 
 function mostrarVerifque(){
-    document.getElementById('verifique').innerHTML = "<b>Acesse esse conteúdo por R$4,99</b>"
+    document.getElementById('verifique').innerHTML = "<b>Ainda em Desenvolvimento, disponível em breve.</b>"
 }
 
 
