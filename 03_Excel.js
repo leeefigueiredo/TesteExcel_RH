@@ -110,7 +110,7 @@ function mostrarPopup() {
 }
 
 function mostrarVerifque(){
-    document.getElementById('verifique').innerHTML = "<b>Ainda em Desenvolvimento, disponível em breve.</b>"
+    document.getElementById('verifique').innerHTML = "<b>Ainda em desenvolvimento, disponível em breve.</b>"
 }
 
 
