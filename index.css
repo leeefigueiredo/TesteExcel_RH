@@ -4,7 +4,22 @@ body {
     color: #24292e;
     margin: 0;
     padding: 20px;
+    background-image: url(img/_8dec7688-bd6a-4d86-a242-902ce98b5059.jpg);
+    background-size: cover;
+    background-repeat: repeat-y; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+
 }
+
+@media (max-width: 1800px) {
+
+    body{
+    background-size: contain;
+    background-repeat: repeat; 
+ 
+    }
+}
+
 
 .divIndex {
     background-color: #ffffff;
@@ -18,8 +33,8 @@ body {
 }
 
 h1 {
-    font-size: 2em;
-    color: #0366d6;
+    font-size: 2.5em;
+    color: green;
 }
 
 p {
