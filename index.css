@@ -4,10 +4,10 @@ body {
     color: #24292e;
     margin: 0;
     padding: 20px;
-    background-image: url(img/_8dec7688-bd6a-4d86-a242-902ce98b5059.jpg);
-    background-size: cover;
-    background-repeat: repeat-y; /* Evita que a imagem se repita */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    background-image: url(img/fundo2.jpg);
+    background-size:contain;
+    background-repeat: repeat-x; /* Evita que a imagem se repita */
+    background-attachment:fixed;
     opacity: 0;
     transition: opacity 2s ease-in-out;
 
@@ -41,7 +41,7 @@ body.loaded {
 
 .divIndex a {
     color: green;
-    font-size: x-large;
+
 }
 
 
