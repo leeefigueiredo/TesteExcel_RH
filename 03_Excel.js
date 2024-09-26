@@ -113,6 +113,9 @@ function mostrarVerifque(){
     document.getElementById('verifique').innerHTML = "<b>Ainda em desenvolvimento, disponível em breve.</b>"
 }
 
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+ });
 
 
 

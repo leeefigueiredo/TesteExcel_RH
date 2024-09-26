@@ -1,5 +1,5 @@
-html{
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 
 }
 
@@ -12,8 +12,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
 
 }
+
+body.loaded {
+    opacity: 1;
+  }
+
 
 
 
@@ -80,7 +87,8 @@ select:hover {
     align-items: end;
 }
 
-#btdstart, button {
+#btdstart,
+button {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
@@ -92,7 +100,8 @@ select:hover {
     transition: background-color 0.2s;
 }
 
-#btdstart:hover, button:hover{
+#btdstart:hover,
+button:hover {
     background-color: #218838;
 }
 
@@ -122,64 +131,65 @@ a:hover {
         height: 75%;
     }
 
+    .popup-content {
+        width: 500px;
+        height: 500px;
+    }
 
 
 }
 
+    /* pop.css */
+
+
+    .popup-content p {
+        font-size: x-large;
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
 
 
-/* pop.css */
+    .popup-content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        width: 400px;
+        height: auto;
 
 
-.popup-content p {
-    font-size: x-large;
-}
+    }
 
-.popup {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    .top-nav p {
+        font-size: 30px;
+        margin-left: 10px;
 
+    }
 
-
-.popup-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    width: auto;
-    height: auto;
-
-
-}
-
-.top-nav p {
-    font-size: 30px;
-    margin-left: 10px;
-   
-}
-
-.top-nav {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    position: fixed;
-    top: 0px;
-    width: 99%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00BAF0;
-    background: #0366d6;
-    color: #FFF;
-    height: 50px;
-    padding: 1em;
-}
+    .top-nav {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        position: fixed;
+        top: 0px;
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #00BAF0;
+        background: #0366d6;
+        color: #FFF;
+        height: 50px;
+        padding: 1em;
+    }
